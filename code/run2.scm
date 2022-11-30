@@ -1,0 +1,7 @@
+(load "problem2.scm")
+(define p1 (point 10 20 30))
+(define p2 (point 40 50 60))
+(write-line (begin (p1 'east) (p1 'north) (p1 'up)))
+(write-line (begin (p2 'west) (p2 'south) (p2 'down)))
+(write-line (begin (p1 'east 2) (p1 'north 3) (p1 'up 4)))
+(write-line (begin (p2 'west 5) (p2 'south 6) (p2 'down 7)))

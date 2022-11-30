@@ -1,0 +1,41 @@
+Edit these files to solve each problem:
+
+problem1.scm
+problem2.scm
+problem3.hs
+problem4.hs
+problem5.pl
+problem6.pl
+problem7.st
+problem8.st
+problem9a.c  OR  problem9a.cpp
+problem9b.c  OR  problem9b.cpp
+problem10.txt
+
+Enter these commands to run the provided test cases:
+
+scheme
+(load "run1.scm")
+(load "run2.scm")
+
+ghci < run3.hs
+ghci < run4.hs
+
+gprolog < run5.pl
+gprolog < run6.pl
+
+gst -f run7.st
+gst -f run8.st
+
+cilk main9.c problem9a.c -o main9a 
+./main9a
+cilk main9.c problem9b.c -o main9b 
+./main9b
+
+OR
+
+cilk++ main9.cpp problem9a.cpp -o main9a 
+./main9a
+cilk++ main9.cpp problem9b.cpp -o main9b 
+./main9b
+

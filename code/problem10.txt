@@ -1,0 +1,19 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+
+Determine whether each of the statements below about the Cilk language is true or false, and provide convincing justification for each answer.
+
+(a.) Every recursive function that uses cilk_spawn and cilk_sync to implement divide-and-conquer on an array can be replaced by one or more equivalent cilk_for statements.
+
+
+
+(b.) Every cilk_for statement that iterates through the elements of an array can be replaced by an equivalent parallel function that uses cilk_spawn and cilk_sync.
+
+
+
